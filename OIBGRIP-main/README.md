@@ -6,7 +6,7 @@ This Repository contains the successfully completed tasks of **LEVEL 2** as a pa
 ## Task sections in the main website
 
 #### Task 1 : Calculator
-https://samuelgladly.github.io/LGMVIP-Web-main/Calculator_Scientist_Sam/index.html
+https://samuelgladly.github.io/OIBGRIP-main/Calculator_Scientist_Sam/index.html
 
 #### Task 2 : Tribute Page
 https://samuelgladly.github.io/OIBGRIP-main/public/tributepage.html
