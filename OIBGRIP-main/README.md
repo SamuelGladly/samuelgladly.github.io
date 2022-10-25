@@ -12,7 +12,7 @@ https://samuelgladly.github.io/LGMVIP-Web-main/Calculator_Scientist_Sam/index.ht
 https://samuelgladly.github.io/OIBGRIP-main/public/tributepage.html
 
 #### Task 3 : To-Do List WebApp
-https://samuelgladly.github.io/LGMVIP-Web-main/todo.html
+https://samuelgladly.github.io/OIBGRIP-main/To%20Do%20List/todo.html
 
 ## Tools and Technologies
 This Project has been built using :
