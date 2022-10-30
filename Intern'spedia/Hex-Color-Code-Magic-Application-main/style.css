@@ -1,0 +1,129 @@
+body{
+    font-family:cursive;
+}
+#submit{
+    background-color: #999999;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: lavender;
+}
+
+.container{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#hex-colors h2{
+    margin-top: 15%;
+  }
+
+#hex-colors{
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+
+#hex-colors h1, h2{
+  font-size: 2rem;
+  text-transform: uppercase; 
+  animation: colorchange 2s infinite alternate; 
+  -ms-animation: colorchange 2s infinite alternate;
+  -moz-animation: colorchange 2s infinite alternate;
+  -o-animation: colorchange 2s infinite alternate;
+}
+
+@-ms-keyframes colorchange{
+  0% {
+        color: #ffffff;
+      }
+      20% {
+        color: #cccccc;
+      }
+      40% {
+        color: #999999;
+      }
+      60% {
+        color: #666666;
+      }
+      80% {
+        color: #333333;
+      }
+      100% {
+        color: #000000;
+      } 
+}
+
+@-moz-keyframes colorchange{
+    0% {
+        color: #ffffff;
+      }
+      20% {
+        color: #cccccc;
+      }
+      40% {
+        color: #999999;
+      }
+      60% {
+        color: #666666;
+      }
+      80% {
+        color: #333333;
+      }
+      100% {
+        color: #000000;
+      } 
+}
+
+@-o-keyframes colorchange{
+    0% {
+        color: #ffffff;
+      }
+      20% {
+        color: #cccccc;
+      }
+      40% {
+        color: #999999;
+      }
+      60% {
+        color: #666666;
+      }
+      80% {
+        color: #333333;
+      }
+      100% {
+        color: #000000;
+      }  
+}
+
+@keyframes colorchange {
+    0% {
+        color: #ffffff;
+      }
+      20% {
+        color: #cccccc;
+      }
+      40% {
+        color: #999999;
+      }
+      60% {
+        color: #666666;
+      }
+      80% {
+        color: #333333;
+      }
+      100% {
+        color: #ffffff;
+      }  
+}
+
+@media(max-width:480px){
+  #hex-colors h1{font-size: 1.5rem;}
+  #hex-colors h2{font-size: 1.5rem;}
+}
