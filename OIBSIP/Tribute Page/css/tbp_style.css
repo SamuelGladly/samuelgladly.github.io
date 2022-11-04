@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+*::selection{
+    background-color: rgb(73, 146, 241);
+}
+
+.gen-text{
+    background-color: rgb(255, 208, 216);
+    text-align: center;
+    /* margin: 10px 0 ; */
+    padding:20px;
+}
+
+.gen-text .content .text1{
+    font-size: 40px;
+}
+
+.gen-text .content .text1 span{
+    color: rgb(236, 59, 168);
+    font-weight: 500;
+}
+
+.dancer{
+    background: rgb(255, 208, 216);
+    height: 70vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.contain{
+    width:850px;
+    height:450px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.slide-row{
+    display:flex;
+    width:100vh;
+}
+
+.slide-col{
+    width:850px;
+    height:450px;
+    position: relative;
+}
+
+.user-img{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+}
+
+.user-img img{
+    height: 100%;
+    border-radius: 0px;
+}
+
+.user-text{
+    background-color: rgb(236, 110, 168); 
+    height: 260px; 
+    width: 465px;
+    position: absolute;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    border-radius: 0px;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.home-content{
+    padding: 20px;
+    background-color:rgb(255, 208, 216);
+}
+
+.hc-head{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.home-content .home-bio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1rem;
+} 
+
+.legabio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:0.1rem;
+}
+
+.trans{
+    background: rgba(255, 255, 255, 0.363);
+    padding:30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.awards{
+  
+    background-color: rgb(236, 110, 168);
+    padding:20px;
+    margin: 10px;   
+}
+
+.trans-con {
+    padding:30px;
+    text-align:justify;
+}
+
+.trans-head{
+    text-align:center;
+    padding:10px;
+}
+
+.biblio{
+    padding: 20px;
+    background-color:rgb(255, 208, 216);
+    text-align: center;
+}
+
+.biblio .a{
+    color: yellow;
+}
+
+.lega{
+    padding: 20px;
+    background-color:rgb(255, 208, 216);
+}
+
+.legacy{
+    padding: 30px;
+    text-align: justify;
+}
+
+.quotes{
+    background-color: rgb(255, 208, 216);
+    padding: 30px;
+}
+
+.quote-head{
+    padding:20px 100px 20px 100px;
+    text-align: justify;
+
+}
+
+.quotes .qp{
+    padding-right: 100px;
+    text-align: right;
+    font-weight:500;
+    font-size: 25px;
+
+}
+
+.awards-con{
+    padding:5px;
+    text-align:center;
+    align-content: center;
+}
+
+.back{
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(255, 208, 216);
+    text-align: center;
+}
+
+#mainlink{
+    color: rgb(97, 6, 139);
+    text-decoration: none;
+}
+
+#mainlink:hover{
+    color: rgb(185, 12, 228);
+    text-decoration: underline;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<style>
+body{
+    background-image: url("cute-pretty-young-girl-doing-complex-maths-writing-calculations-genius-child-home-school-scientific-calculator-advanced-using-211668879.jpg");
+}
+    </style>
+<body>
+    <div id="calculator">Calculator</div>
+    <div id="container">
+        <div id="display"></div>
+        <div id="grid-container">
+            <div onclick="sin()" id="sin" class="buttons">sin</div>
+            <div onclick="cos()" id="cos" class="buttons">cos</div>
+            <div onclick="tan()" id="tan" class="buttons">tan</div>
+            <div onclick="log()" id="log" class="buttons">log<sub>10</sub></div>
+            <div onclick="forwardbracket()" id="(" class="buttons">(</div>
+            <div onclick="backwordbracket()" id=")" class="buttons">)</div>
+            <div onclick="mode()" id="%" class="buttons">%</div>
+            <div onclick="pie()" id="pie" class="buttons">&#960;</div>
+            <div onclick="AC()" id="AC" class="buttons">AC</div>
+            <div onclick="DEL()" id="DEL" class="buttons">DEL</div>
+            <div onclick="xy()" id="xy" class="buttons">x<sup>y</sup></div>
+            <div onclick="divide()" id="/" class="buttons">/</div>
+            <div onclick="seven()" id="7" class="buttons">7</div>
+            <div onclick="eight()" id="8" class="buttons">8</div>
+            <div onclick="nine()" id="9" class="buttons">9</div>
+            <div onclick="multiply()" id="*" class="buttons">*</div>
+            <div onclick="four()" id="4" class="buttons">4</div>
+            <div onclick="five()" id="5" class="buttons">5</div>
+            <div onclick="six()" id="6" class="buttons">6</div>
+            <div onclick="minus()" id="-" class="buttons">-</div>
+            <div onclick="one()" id="1" class="buttons">1</div>
+            <div onclick="two()" id="2" class="buttons">2</div>
+            <div onclick="three()" id="3" class="buttons">3</div>
+            <div onclick="add()" id="+" class="buttons">+</div>
+            <div onclick="comma()" id="comma" class="buttons">,</div>
+            <div onclick="zero()" id="0" class="buttons">0</div>
+            <div onclick="decimal()" id="." class="buttons">.</div>
+            <div onclick="equal()" id="=" class="buttons">=</div>
+        </div>
+    </div>
+    <div id="howtouse">
+        <h2>Instructions followed to use this Calculator</h2>
+        <ul>
+            <li>
+                Use BODMAS rules or use brackets while solving this sin(3+7*(3-1*cos(6))) type experssion .
+            </li>
+            <li>
+                All the angle values are in radian initially.
+            </li>
+            <li>
+                %(modulus) is use to find remainder e.g 3%2=1.
+            </li>
+            <li>
+                To find sin(x) write sin(x) and same in case of cos and tan.
+            </li>
+            <li>
+                To find x<sup>y</sup> write pow(x,y).When you click x<sup>y</sup> it will write pow and after that you have to write according to syntax.
+            </li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
