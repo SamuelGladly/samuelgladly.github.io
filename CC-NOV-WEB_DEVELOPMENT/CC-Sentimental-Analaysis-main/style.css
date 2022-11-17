@@ -1,0 +1,347 @@
+.pos5{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(0,255,0);
+  border-radius:3px;
+}
+.pos4{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(0,204,0);
+  border-radius:3px;
+}
+.pos3{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(0,153,0);
+  border-radius:3px;
+}
+.pos2{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(0,102,0);
+  color:white;
+  border-radius:3px;
+}
+.pos1{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(0,51,0);
+  color:white;
+  border-radius:3px;
+}
+.neg1{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(255,0,0);
+  border-radius:3px;
+}
+.neg2{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(204,0,0);
+  border-radius:3px;
+  color:#ffffff;
+}
+.neg3{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(153,0,0);
+  border-radius:3px;
+  color:#ffffff;
+}
+.neg4{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(102,0,0);
+  color:white;
+  border-radius:3px;
+}
+.neg5{
+	padding-left:2px;
+	margin-left:-2px;
+	padding-right:2px;
+	margin-right:-2px;
+	background-color:rgb(51,0,0);
+  color:white;
+  border-radius:3px;
+}
+
+body{
+  margin:0;
+  overflow:hidden;
+  background:#840070;
+}
+#userInput{
+  font-family:Courier;
+  position:absolute;
+  top:2vh;
+  height:95vh;
+  width:45vw;
+  background-color:#f5f5f5;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#outputArea{
+  font-family:Courier;
+  position:absolute;
+  left:55%;
+  top:2vh;
+  height:95vh;
+  width:45vw;
+  background-color:#f5f5f5;
+  z-index:1;
+  border:solid 1px rgb(200,200,200);
+  padding: 3px;
+  box-sizing: border-box;
+  overflow-y:auto;
+}
+.btn{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  z-index:10;
+  background-color:#f5f5f5;
+  border-radius:.6vw;
+  border:none;
+  /*box-shadow:0px 0px 3px #000;*/
+  cursor:pointer;
+  font-size:3.5vw;
+  outline:none;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  box-shadow:0px 0px 3px #000;
+}
+.btn:hover{
+ box-shadow:0px 0px 7px #000; 
+}
+#sentimentScore,#sentimentScore2{
+  position:absolute;
+  left:50%;
+  transform:translate(-50%);
+  height:8vw;
+  width:8vw;
+  background-color:black;
+  color:white;
+  border-radius:100vw;
+  border:solid 0.5vw #000;
+  text-align:center;
+  font-size:4vw;
+  line-height: 8vw;
+}
+#sentimentScore{
+    top:5%;
+}
+#sentimentScore2{
+    bottom:5%;
+}
+
+.container{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  height:12vw;
+  width:12vw;
+  transition:1s;
+  cursor:pointer;
+  z-index:5;
+}
+.bg{ 
+  position:absolute;
+  top:50%;
+  left:50%;
+  background-color:rgb(12, 177, 95);
+  transform:translate(-50%,-50%);
+  height:100%;
+  width:100%;
+  border-radius:100vw;
+  border:solid .7vw #fff;
+  box-shadow:.1vw .1vw .1vw #000;
+  transition:1s;
+  cursor:pointer;
+  overflow:hidden;
+}
+.circle{
+  position:absolute;
+  top:50%;
+  left:100%;
+  border-radius:100vw;
+  background-color:#f5f5f5;
+  transform:translate(0%,-50%);
+  height:30%;
+  width:30%;
+  box-shadow:.1vw .1vw .2vw #000;
+  border:solid 0vw #000;
+  transition:1s ease-in-out;
+  z-index:2;
+}
+.word{
+  position:absolute;
+  border-radius:1vw;
+  transform:translate(-50%,-50%);
+  box-shadow:.1vw .1vw .2vw #000;
+  height:4%;
+  width:13%;
+  transition:1s ease-in-out;
+  z-index:2;
+}
+.word1{
+  top:65%;
+  left:85%;
+  background-color:#cd3939;
+}
+.word2{
+  top:55%;
+  left:65%;
+  background-color:#f79646;
+}
+.word3{
+  top:65%;
+  left:48%;
+  background-color:#c0504d;
+}
+.word4{
+  top:35%;
+  left:44%;
+  background-color:#ffd700;
+}
+.word5{
+  top:55%;
+  left:19%;
+  background-color:#77933c;
+}
+.word6{
+  top:45%;
+  left:61%;
+  background-color:#9bbb59;
+}
+.line{
+  position:absolute;
+  border-radius:1vw;
+  left:50%;
+  transform:translate(-50%,-50%);
+  transition:1s ease-in-out;
+  height:3%;
+  width:80%;
+  background-color:rgb(50,50,50);
+  opacity:0.5;
+  z-index:1;
+}
+.line1{
+  top:35%;
+}
+.line2{
+  top:45%;
+}
+.line3{
+  top:55%;
+}
+.line4{
+  top:65%;
+}
+.container:hover > .bg > .word{
+  position:absolute;
+  top:50%;
+  left:50%;
+  border-radius:100vw;
+  background-color:#9bbb59;
+  box-shadow:0vw 0vw 0vw #9bbb59;
+  border: 1px solid brown;
+}
+.container:hover > .bg > .circle{
+  height:50%;
+  width:50%;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  transition:1s ease-in-out;
+  background-color:#bb5959;
+  box-shadow:0.2vw 0.2vw 0.4vw #000;
+  border: 1px solid brown;
+}
+.container:active > .bg > .circle, .container:active > .bg > .word{
+  background-color:#bb5959;
+  transition:1000ms;
+}
+.container:hover > .bg > .line{
+  left:-50%;
+}
+.container:active > .bg > .line{
+  left:-50%;
+}
+.container:hover > .bg{
+  border-radius:100vw;
+  transition:6s;
+  background-color:#77933c;
+}
+.container:hover > .bg > .arrow{
+  left:150%;
+}
+.lineArrow1,.lineArrow2{
+  height:66%;
+  width:10%;
+  background-color:white;
+  border-radius:100vw;
+  position:absolute;
+  left:50%;
+  transition:1s;
+}
+.lineArrow1{  
+  transform:translate(-50%,-50%) rotate(-45deg);
+  top:30%;
+}
+.lineArrow2{  
+  transform:translate(-50%) rotate(45deg);
+  top:37%;
+}
+textarea{
+  font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 8px solid;
+	padding: 1rem;
+  border-width: 30px;
+	border-image: repeating-radial-gradient(
+			circle at 10px,
+			turquoise,
+			pink 2px,
+			greenyellow 4px,
+			pink 2px
+		)
+		1;
+}
+
+#outputArea{
+  border-width: 30px;
+  font-size: 1.6rem;
+	border-image: repeating-radial-gradient(
+			circle at 10px,
+			turquoise,
+			pink 2px,
+			greenyellow 4px,
+			pink 2px
+		)
+		1;
+
+}

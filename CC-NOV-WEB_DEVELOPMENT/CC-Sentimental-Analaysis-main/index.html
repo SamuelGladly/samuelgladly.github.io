@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sentiment analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <textarea id="userInput" class="input" placeholder="Paste or type your text here..."></textarea>
+<!--<button onclick="analyze()" class="btn">Analyze</button>-->
+<div id="outputArea"></div>
+<div id="sentimentScore" title="Sentiment score (-5 &rarr; 5)">0</div>
+<div id="sentimentScore2" title="Sentiment face">😶</div>
+
+<div class="container"onclick="javascript:analyze()">
+  <div class="bg">
+    <div class="circle"></div>
+    <div class="word word1"></div>
+    <div class="word word2"></div>
+    <div class="word word3"></div>
+    <div class="word word4"></div>
+    <div class="word word5"></div>
+    <div class="word word6"></div>
+    <div class="line line1"></div>
+    <div class="line line2"></div>
+    <div class="line line3"></div>
+    <div class="line line4"></div>
+    <div class="arrow lineArrow1"></div>
+    <div class="arrow lineArrow2"></div>
+  </div>
+</div>
+</body>
+</html>
