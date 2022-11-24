@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body {
+    background-color: #fff;
+    color: #292259;
+    font-family: 'Poppins', Arial;
+
+}
+
+header {
+    padding: 1em;
+    height: fit-content;
+    background-color: #292259;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(94.72deg, #140F26 14.57%, #292259 39.96%, #358C83 98.42%);
+    text-align: left;
+
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.logo {
+    height: 120%;
+    margin: .5em;
+}
+
+h1 {
+    font-family: 'Cookie', Arial;
+    display: block;
+    font-size: 4.5em;
+    background: linear-gradient(294.93deg, #FFFFFF -2.73%, #21BFAF 153.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+h2 {
+    padding: .5em;
+    font-weight: bold;
+}
+
+
+.cover {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main {
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+
+
+.col-md-3 {
+    border-radius: .4em;
+    padding: .5em;
+    margin-bottom: 10px;
+}
+
+.col-md-3:hover{
+    background-color:rgba(112, 124, 140, 0.15);
+    
+}
+
+.album-poster {
+    position: relative;
+    display: block;
+    border-radius: .3em;
+    overflow: hidden;
+    transition: all ease 0.3s;
+}
+
+
+p {
+    color: #292259;
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+
+ /* APlayer CSS  */
+
+
+#aplayer {
+    position: fixed;
+    padding: .5em;
+    border-radius: .5em;
+    bottom: -100%;
+    left: 0;
+    width: 80%;
+    margin: 0 10%;
+    box-shadow: 0 10px 25px #2210626d, 0 5px 15px #2922597f;
+    background-color: #fff;
+    transition: all ease 0.5s;
+}
+
+#aplayer.showPlayer {
+    bottom: 5%;
+}
+
+
+span {
+    color: #292259 !important;
+    font-size: 16px;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
+    background: #e0e0e0;
+    height: 4px;
+    width: 20px;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
+    height: 4px;
+    background-color: #4321BF !important;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
+    background-color: #4321BF !important;
+}
+
+.aplayer .aplayer-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path {
+    fill: #140F26;
+}
+
+.aplayer .aplayer-info .aplayer-music {
+    margin-bottom: 4px;
+}
