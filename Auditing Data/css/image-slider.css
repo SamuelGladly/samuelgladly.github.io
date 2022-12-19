@@ -1,0 +1,203 @@
+/* image slider css */
+/* Authored by Boaz James Otieno */
+#slider-main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-slide {
+    width: 100%;
+    min-height: 50vw;
+    z-index: 5;
+    overflow-y: hidden;
+}
+
+#prev,
+#next {
+    z-index: 99;
+    color: #fff;
+    position: absolute;
+    background: transparent;
+    border: none;
+    font-size: 40px !important;
+    cursor: pointer;
+    bottom: 46%;
+}
+
+#prev {
+    left: 3%;
+}
+
+#next {
+    right: 3%;
+}
+
+.circle {
+    border: rgba(254, 56, 89, 0.71) 3px solid;
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 1px;
+}
+
+#circles {
+    /* margin-top: -15vh; */
+    /* margin-left: 48.6%; */
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 12%;
+}
+
+.image-animated {
+    animation: animateImage 5s ease-in-out;
+    /* change time according to interval set */
+}
+
+@keyframes animateImage {
+    0% {
+        opacity: .2;
+        transform: scale(1.2, 1.2);
+    }
+
+    20% {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+
+    80% {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+
+    95% {
+        opacity: .8;
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        opacity: .8;
+        transform: scale(1.2, 1.2);
+    }
+}
+
+@media (max-width: 767px) {
+    .circle {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+/* responsive */
+@media(max-width: 1680px) {}
+
+@media(max-width: 1600px) {}
+
+@media(max-width: 1440px) {}
+
+@media(max-width: 1366px) {}
+
+@media(max-width: 1280px) {}
+
+@media(max-width: 1080px) {}
+
+@media(max-width: 1050px) {}
+
+@media(max-width: 1024px) {}
+
+@media(max-width: 991px) {
+    .img-slide {
+        min-height: 56vw;
+    }
+}
+
+@media(max-width: 900px) {
+    .img-slide {
+        min-height: 62vw;
+    }
+}
+
+@media(max-width: 800px) {}
+
+@media(max-width: 768px) {
+    .img-slide {
+        min-height: 67vw;
+    }
+}
+
+@media(max-width: 736px) {
+
+    #prev,
+    #next {
+        font-size: 32px !important;
+    }
+
+    #circles {
+        bottom: 6%;
+    }
+}
+
+@media(max-width: 667px) {}
+
+@media(max-width: 640px) {}
+
+@media(max-width: 600px) {}
+
+@media(max-width: 568px) {
+    #prev {
+        left: 1%;
+    }
+
+    #next {
+        right: 1%;
+    }
+}
+
+@media(max-width: 480px) {
+    .img-slide {
+        min-height: 380px;
+    }
+}
+
+@media(max-width: 440px) {}
+
+@media(max-width: 414px) {}
+
+@media(max-width: 384px) {
+    #prev {
+        left: 0%;
+    }
+
+    #prev,
+    #next {
+        font-size: 22px !important;
+    }
+
+    #next {
+        right: 0%;
+    }
+}
+
+@media(max-width: 375px) {}
+
+@media(max-width: 320px) {
+    .img-slide {
+        min-height: 350px;
+    }
+
+    .circle {
+        width: 13px;
+        height: 13px;
+    }
+
+    #circles {
+        bottom: 5%;
+    }
+}
+
+/* //responsive */
