@@ -1,0 +1,54 @@
+.navbar {
+    margin-bottom: 0;
+    background-color:white;
+    
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    box-shadow: 0px 0.5px 0.5px #aaaaaa;
+    margin-bottom: 30px;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color:#fdb487!important;
+    font-size:18px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+      /*
+  .btn11 {
+    color: white !important; 
+ border: 1px solid red;
+    border-radius: 25px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+
+  .btn12 {
+    border: 1px solid red;
+    border-radius: 25px;
+    margin-right: 15px;
+    background-color:  white !important;
+    color:  #22ACE3 !important;
+  }
+  */
+
+
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: rgb(29, 28, 28) !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+

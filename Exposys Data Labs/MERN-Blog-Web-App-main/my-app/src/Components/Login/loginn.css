@@ -1,0 +1,104 @@
+
+
+.login {
+    margin-top: 80px;
+    display: flex;
+    height: 89vh;
+}
+.login-header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.login-logoo{
+    width: 40%;
+    margin-bottom: -5px;
+    
+}
+.login-header h1 {
+    font-weight: 800;
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    /* color: #feb98e ; */
+    margin: 30px 0px;
+}
+
+.login-window {
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+/* .my-google-button {
+    width: 300px ;
+    margin: 10px;
+    font-size: 20px ;
+    text-align: center;
+    
+
+} */
+.googleIconn {
+    color:rgb(241, 82, 82);  
+    margin-right: 10px;
+}
+.my-facebook-button-class {
+    font-size: 20px;
+    width: 350px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0.5px 2px rgba(0, 0, 0, 0.3);
+    margin: 5px 10px;
+    padding: 14px 5px;
+    background-color:#1877F2;
+    font-weight: bold;
+}
+.fa-facebook {
+    color:white;
+    margin-right: 15px;
+    
+}
+.login-orr{
+    width: 350px;
+    font-size: large;
+}
+.login-input-fieldd {
+   font-size: 20px;
+}
+.login-body22 {
+    display: flex;
+    width: 350px;
+}
+
+.login-footer {
+    width: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+@media screen and (max-width : 500px) {
+    .login-window {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+

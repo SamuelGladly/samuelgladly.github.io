@@ -1,0 +1,11 @@
+
+.catego-btnn {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 6px 5px 6px;
+    /* margin : 0px 10px; */
+    background-color: #ffdfcb;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid black; */
+}

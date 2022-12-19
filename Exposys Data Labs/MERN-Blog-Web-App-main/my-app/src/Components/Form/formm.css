@@ -1,0 +1,101 @@
+
+.form-main {
+    margin-top: 80px;
+    
+}
+.form-window {
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.upload-iimgg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px 20px 0px 0px;
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .form-window {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .form-window {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

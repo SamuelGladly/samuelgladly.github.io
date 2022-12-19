@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600&family=Montserrat:wght@500&family=Roboto:wght@100;300;400;700;900&family=Varela&family=Varela+Round&display=swap');
+
+
+.serachh-window {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f6a573;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(220, 218, 218); 
+}
+
+.search-btnnn {
+    border: none;
+    background-color:white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 15px; 
+    padding : 13px;
+    padding-right: 15px;
+}
+
+.search-input-fieldd {
+    padding: 13px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 13px 30px 13px 20px;
+}
+.search-headingg > h3 {
+    line-height: 3px;
+    margin-top: 30px;
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.search-headingg > hr {
+    width: 100%;
+}
+
+input[type=text]:focus {
+    /* background-color: lightblue; */
+    /* border: none; */
+    outline: none;
+  }
+
+  .search-input-tagss {
+    margin-bottom: 7px;
+  }
+  
+@media screen and (max-width: 800px) {
+    .search-input-fieldd {
+        padding: 10px 0px 10px 3px;
+        /* font-size: 10px; */
+        width: 300px;
+    }
+    .search-btnnn {
+        /* font-size: 10px; */
+        padding: 10px 3px 10px 0px;
+    }
+}
+
+  @media screen and (max-width: 500px) {
+    .search-input-fieldd {
+        padding: 10px 0px 10px 3px;
+        /* font-size: 10px; */
+        width: 200px;
+    }
+    .search-btnnn {
+        /* font-size: 10px; */
+        padding: 10px 3px 10px 0px;
+    }
+}
+
+
+@media screen and (max-width : 300px){
+    .search-input-fieldd {
+        width: 100px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

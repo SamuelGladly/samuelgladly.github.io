@@ -1,0 +1,111 @@
+
+/*----------------------------------------------*/
+.postDiv {
+    /* width: 600px;
+    height: 550px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+    /* background-color: #f2f2f2; */
+    /* border: 1px solid rgb(220, 218, 218); */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 20px;
+
+    
+}
+
+.post-imgg {
+    /* width: 100%;
+    height: auto;
+    cursor: pointer; */
+
+    width:  170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.post-window {
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: aqua; */
+    padding: 15px;
+}
+
+.post-window-left {
+    flex: 4;
+    /* background-color:rgb(144, 116, 116) */
+}
+.post-window-right {
+    /* background-color:rgb(90, 90, 154); */
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+};
+
+.test-bbb {
+    border: none;
+    background-color: transparent;
+    
+}
+
+.save-bttnn  {
+    cursor: pointer;
+}
+.post-r-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.post-r-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.post-r-body {
+    cursor: pointer;
+}
+.post-r-body > h3 {
+    /* line-height: 10px; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    margin-top: 7px;
+}
+
+.post-r-body > h6 {
+    /* line-height: 10px; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.post-r-body > p {
+    font-size: 12px;
+}
+
+@media screen and (max-width : 600px) {
+    .post-window {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .post-window-left {
+        width: 100%;
+        text-align: center;
+    }
+    .post-img {
+        width: 100%;
+    }
+    .post-window-right {
+        width: 100%;
+    }
+}
+
+

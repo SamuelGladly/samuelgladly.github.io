@@ -1,0 +1,58 @@
+.sidmainn {
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+}
+.posttimgg {
+    flex: 2;
+    margin: 0px 10px;
+    /* border : 1px solid black; */
+}
+.post-heading-details {
+    flex: 8;
+    margin: 0px 10px;
+    /* border: 1px solid red; */
+}
+
+.imgggpost {
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.post-heading-details > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    /* margin-bottom: -2px; */
+    color: white;
+}
+
+.post-heading-details > h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+}
+/* .post-heading-details > .midd-mann {
+    margin : 0px 2px;
+} */
+
+.side-titles-mainnn > hr {
+    width: 90%;
+}
+.calender-deta {
+    margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

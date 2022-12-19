@@ -1,0 +1,193 @@
+
+.postdetails-main {
+    margin: 100px 60px 0px 60px;
+}
+.profdet-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.post-author-detailss {
+    display: flex;
+    padding: 10px 10px 0px 10px;
+    
+}
+
+.post-auth-detailss {
+    padding-top: 7px;
+    margin-left: 10px;
+}
+.post-auth-detailss > h5 {
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.post-details-imgg {
+    text-align: center;
+    
+}
+/* .post-body-messagee {
+    
+} */
+
+.post-author-prof-imagg > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.profdet-main-left {
+    flex:6;
+    
+    flex-direction: column;
+    padding: 10px;
+}
+.profdet-main-right {
+    flex: 4;
+
+}
+.post-det-img {
+    width: 70%;
+    height: 400px;
+    
+}
+.post-header-detailss {
+    text-align: center;
+}
+.post-header-detailss > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.post-header-detailss > p {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.post-det-msgg {
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.profdet-footer {
+    display: flex;
+}
+.posted-comments {
+    flex: 6;
+    height: 300px;
+    padding: 0px 10px 0px 10px;
+    
+}
+.posted-comments > h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+.comment-form {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+}
+
+
+.users-commentss > p {
+    font-weight: 400;
+}
+/* .comment-namee {
+    font-weight: bold;
+} */
+
+.comment-form-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+.comment-form-window > h3 {
+    font-weight: 600;
+
+
+}
+
+.suggestions {
+    overflow: auto;
+}
+
+
+@media screen and (max-width: 1005px) {
+
+    .profdet-main {
+        flex-direction: column;
+    }
+    .profdet-main-right {
+        display: none;
+    }    
+    .profdet-header {
+        background-color: rgb(160, 160, 118);
+        justify-content: center;
+        align-items: center;
+    }
+    .profdet-footer {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 1005px) {
+    .other-sectionss {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .postdetails-main {
+        margin: 70px 5px 0px 5px;
+        /* background-color: yellow; */
+        
+    }
+    .profdet-main {
+        padding: 5px;
+        /* background-color: rgb(21, 84, 139); */
+    }
+
+}
+
+@media screen and (max-width : 500px){
+    .profdet-main-left {
+        width: 100%;
+        /* background-color: red; */
+
+    }
+    .post-det-img {
+        width: 95%;
+    }
+    .post-header-detailss > h1 {
+        font-size: 35px;
+    }
+    .suggest-head-ing > h1 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

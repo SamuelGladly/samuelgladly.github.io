@@ -1,0 +1,39 @@
+.catt-window-sec {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(78, 213, 87); */
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.righiconn {
+    color: white;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.catwindchildd {
+    height: 100px;
+    /* background-color: rgb(249, 21, 21); */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.catwindchildd > h5 {
+    font-size: 23px;
+    color: white;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.ri-icon {
+    font-size: 30px;
+}
+
+
+
