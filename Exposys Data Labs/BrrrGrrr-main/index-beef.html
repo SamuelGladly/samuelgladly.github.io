@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Customize Your Burger</title>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles-customize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="module">
+            <div class="row">
+                <div class="col-12">
+                    <div class="logo">
+                          <img  class="burg-logo"src="assets/burg-logo-1.png">
+                          <h1>BrrrGrrr</h1>
+                          <h5>it's burger O'clock!!</h5>
+                      </div> 
+                </div>
+            </div>
+        </div>
+        <div class="containr">
+            <h1 class="title">Customize Your Beef Burger</h1>
+            <hr class="line">
+            <h1 class="mh">Burger Bread</h1>
+            <div class="container">
+                <div class="card">
+                    <div class="card17-image"></div>
+                    <div class="card17-text">
+                        <h2 class="ingredients">Plain - Rs.28/-</h2>
+                    </div>
+                    <div class="card17-stats">
+                        <div class="row">
+                            <div class="col-4 minus">
+                                <button id="down" class="btn btn-default" onclick=" down16('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="col-4">
+                                <input type="text" id="myNumber16" class="form-control input-number" value="0" />
+                            </div>
+                            <div class="col-4">
+                                <button id="up" class="btn btn-default" onclick="up16('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card18-image"></div>
+                    <div class="card18-text">
+                        <h2 class="ingredients">Sesame - Rs.30/-</h2>
+                    </div>
+                    <div class="card18-stats">
+                        <div class="row">
+                            <div class="col-4 minus">
+                                <button id="down" class="btn btn-default" onclick=" down17('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="col-4">
+                                <input type="text" id="myNumber17" class="form-control input-number" value="1" />
+                            </div>
+                            <div class="col-4">
+                                <button id="up" class="btn btn-default" onclick="up17('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card19-image"></div>
+                    <div class="card19-text">
+                        <h2 class="ingredients">English Muffin - Rs.35/-</h2>
+                    </div>
+                    <div class="card19-stats">
+                        <div class="row">
+                            <div class="col-4 minus">
+                                <button id="down" class="btn btn-default" onclick=" down18('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="col-4">
+                                <input type="text" id="myNumber18" class="form-control input-number" value="0" />
+                            </div>
+                            <div class="col-4">
+                                <button id="up" class="btn btn-default" onclick="up18('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="card">
+                        <div class="card20-image"></div>
+                        <div class="card20-text">
+                          <h2 class="ingredients">Pretzel - Rs.40/-</h2>
+                        </div>
+                        <div class="card20-stats">
+                          <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down19('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber19" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up19('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                        </div>
+                    </div>
+            </div>
+            <hr class="line">
+        <h1 class="mh">Vegetables</h1>
+
+        <div class="container">
+        
+            <div class="card">
+            <div class="card-image"></div>
+            <div class="card-text">
+              <h2 class="ingredients">Tomato - Rs.10/-</h2>
+            </div>
+            <div class="card-stats">
+                    <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down1('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber1" class="form-control input-number" value="1" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up1('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+            </div>
+            </div>
+
+
+          <div class="card">
+            <div class="card2-image"></div>
+            <div class="card2-text">
+              <h2 class="ingredients">Spinach - Rs.8/-</h2>
+            </div>
+            <div class="card2-stats">
+              <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down2('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber2" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up2('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card4-image"></div>
+            <div class="card4-text">
+              <h2 class="ingredients">Cabbage - Rs.12/-</h2>
+            </div>
+            <div class="card4-stats">
+              <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down3('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber3" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up3('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card7-image"></div>
+            <div class="card7-text">
+              <h2 class="ingredients">Onions - Rs.15/-</h2>
+            </div>
+            <div class="card7-stats">
+              <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down4('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber4" class="form-control input-number" value="1" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up4('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+            </div>
+        </div>
+
+                <div class="card">
+                    <div class="card8-image"></div>
+                    <div class="card8-text">
+                    <h2 class="ingredients">Jalapeno - Rs.23/-</h2>
+                    </div>
+                    <div class="card8-stats">
+                    <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down5('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber5" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up5('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card15-image"></div>
+                    <div class="card15-text">
+                    <h2 class="ingredients">Leaf Lettuce - Rs.18/-</h2>
+                    </div>
+                    <div class="card15-stats">
+                    <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down6('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber6" class="form-control input-number" value="1" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up6('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card13-image"></div>
+                    <div class="card13-text">
+                    <h2 class="ingredients">Mushroom - Rs.16/-</h2>
+                    </div>
+                    <div class="card13-stats">
+                    <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down7('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber7" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up7('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card14-image"></div>
+                    <div class="card14-text">
+                    <h2 class="ingredients">Cucumber - Rs.8/-</h2>
+                    </div>
+                    <div class="card14-stats">
+                    <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down8('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber8" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up8('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        <hr class="line">
+        <h1 class="mh">Meat</h1>
+            <div class="container">
+                    <div class="card">
+                        <div class="card9-image"></div>
+                        <div class="card9-text">
+                          <h2 class="ingredients">Chicken - Rs.70/-</h2>
+                        </div>
+                        <div class="card9-stats">
+                          <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down12('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber12" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up12('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card10-image"></div>
+                        <div class="card10-text">
+                          <h2 class="ingredients">Mutton - Rs.90/-</h2>
+                        </div>
+                        <div class="card10-stats">
+                          <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down13('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber13" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up13('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card6-image"></div>
+                        <div class="card6-text">
+                          <h2 class="ingredients">Bacon - Rs.100/-</h2>
+                        </div>
+                        <div class="card6-stats">
+                          <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down14('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber14" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up14('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card11-image"></div>
+                        <div class="card11-text">
+                          <h2 class="ingredients">Beef - Rs.80/-</h2>
+                        </div>
+                        <div class="card11-stats">
+                          <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down15('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber15" class="form-control input-number" value="1" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up15('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                        </div>
+                    </div>
+            </div>
+            <hr class="line">
+
+        <h1 class="mh">Cheese</h1>
+        <div class="container">
+            <div class="card">
+                <div class="card3-image"></div>
+                <div class="card3-text">
+                  <h2 class="ingredients">Cheddar - Rs.30/-</h2>
+                </div>
+                <div class="card3-stats">
+                  <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down9('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber9" class="form-control input-number" value="1" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up9('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card12-image"></div>
+                <div class="card12-text">
+                  <h2 class="ingredients">Mozarella - Rs.35/-</h2>
+                </div>
+                <div class="card12-stats">
+                  <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down10('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber10" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up10('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="card">
+          <div class="card5-image"></div>
+          <div class="card5-text">
+            <h2 class="ingredients">Parmesan - Rs.38/-</h2>
+          </div>
+          <div class="card5-stats">
+            <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down11('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber11" class="form-control input-number" value="0" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up11('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+          </div>
+        </div>
+            
+        <div class="card">
+          <div class="card16-image"></div>
+          <div class="card16-text">
+            <h2 class="ingredients">Mayo - Rs.20/-</h2>
+          </div>
+          <div class="card16-stats">
+            <div class="row">
+                        <div class="col-4 minus">
+                        <button id="down" class="btn btn-default" onclick=" down20('0')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-4">
+                        <input type="text" id="myNumber20" class="form-control input-number" value="1" />
+                        </div>
+                        <div class="col-4">
+                        <button id="up" class="btn btn-default" onclick="up20('10')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+          </div>
+            </div>
+            </div>  
+       </div>
+       <div class="menu">
+           <div class="row">
+               <div class="col-12">
+                   <h1>Your Order</h1>
+               </div>
+           </div>
+           <div class="row ing">
+               
+               <div class="col-3 bread">
+                   <div class="row">
+                       <div class="col-6">
+                           <ul>
+                               <li>Plain</li>
+                               <li>Sesame</li>
+                               <li>English Muffin</li>
+                               <li>Pretzel</li>
+                           </ul>
+                       </div>
+                       <div class="col-6">
+                         <ul class="number">
+                           <li id="plain">0</li>
+                           <li id="sesame">1</li>
+                           <li id="engMuffin">0</li>
+                           <li id="pretzel">0</li>
+                          </ul>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-3 bread">
+                   <div class="row">
+                       <div class="col-6">
+                           <ul>
+                               <li>Tomato</li>
+                               <li>Spinach</li>
+                               <li>Cabbage</li>
+                               <li>Onions</li>
+                               <li>Jalapeno</li>
+                               <li>Leaf Lettuce</li>
+                               <li>Mushroom</li>
+                               <li>Cucumber</li>
+                           </ul>
+                       </div>
+                       <div class="col-6">
+                         <ul class="number">
+                           <li id="tomato">1</li>
+                           <li id="spinach">0</li>
+                           <li id="cabbage">0</li>
+                           <li id="onions">1</li>
+                           <li id="jalapeno">0</li>
+                           <li id="leafLettuce">1</li>
+                           <li id="mushroom">0</li>
+                           <li id="cucumber">0</li>
+                          </ul>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-3 bread">
+                   <div class="row">
+                       <div class="col-6">
+                           <ul>
+                               <li>Chicken</li>
+                               <li>Mutton</li>
+                               <li>Bacon</li>
+                               <li>Beef</li>
+                           </ul>
+                       </div>
+                       <div class="col-6">
+                         <ul class="number">
+                           <li id="chicken">0</li>
+                           <li id="pork">0</li>
+                           <li id="bacon">0</li>
+                           <li id="turkey">1</li>
+                          </ul>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-3 bread">
+                   <div class="row">
+                       <div class="col-6">
+                           <ul>
+                               <li>Cheddar</li>
+                               <li>Mozarella</li>
+                               <li>Parmesan</li>
+                               <li>Mayo</li>
+                           </ul>
+                       </div>
+                       <div class="col-6">
+                         <ul class="number">
+                           <li id="cheddar">1</li>
+                           <li id="mozarella">0</li>
+                           <li id="parmesan">0</li>
+                           <li id="mayo">1</li>
+                          </ul>
+                       </div>
+                   </div>
+               </div>
+               
+           </div>
+                <div class="row">
+                    <div class="col-6 orders">
+                        <h2>Your Purchase Bill</h2>
+                        <h2 id="bill">200.00</h2>
+                    </div>
+                </div>
+       </div>
+       <div class="payment">
+           <div class="row total">
+               <div class="col-12">
+                   <h1>Your Total Payment: <b id="pay">200.00</b></h1>
+               </div>
+           </div>
+           <div class="row pays">
+               <div class="col-12">
+                   <button class="payReceive">Pay and Receive Order</button>
+               </div>
+           </div>
+       </div>
+       <footer class="footer bg-inverse footerColor">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-2 social">
+                      <a href="https://www.facebook.com" target="_blank">
+                      <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                      <a href="https://twitter.com" target="_blank">
+                      <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                      <a href="https://www.youtube.com" target="_blank">
+                      <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-10">
+                        <p class="footerpar">THIS WEBSITE BELONGS TO CUISINE WAVE © 2018 - ALL RIGHTS RESERVED - CUISINE WAVE</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

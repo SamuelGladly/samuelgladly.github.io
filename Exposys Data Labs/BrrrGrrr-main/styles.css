@@ -1,0 +1,146 @@
+body {
+   background-color:  #e0e0d1;
+}
+
+.module {
+    background: repeating-linear-gradient(
+  to right,
+  #ffd633,
+  #ffd633 30px,
+  #ffffff 30px,
+  #ffffff 60px
+);
+    padding: 5px;
+    border: 1px solid #ebebe0;
+    margin-bottom: 30px;
+}
+
+.logo {
+    border: 6px solid #ff9900;
+    border-radius:50%;
+    width: 25%;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #cc3300;
+    padding: 10px;
+}
+
+.logo h5 {
+    text-transform: none;
+}
+
+img.burg-logo {
+    width: 90px;
+    margin-top: 10px;
+}
+
+.cust {
+    text-align: center;
+    color: #660066;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cust h1 {
+    font-size: 55px;
+}
+
+.customize {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.customize p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.create {
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 700;
+    color: #800000;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.line {
+    background-color:  #ff0000;
+}
+
+.contact {
+    text-align: center;
+    color: #6600cc;
+}
+
+.contact h1 {
+    margin-bottom: 30px;
+    font-size: 55px;
+}
+
+.cardWrapper {
+    margin-bottom: 30px;
+}
+
+.fa-map-marker {
+    color: #ff3300;
+}
+
+.fa-envelope {
+    color: #663300;
+}
+
+.wrapper {
+    color: black;
+}
+
+footer.footerColor {
+    background-color: #212529;
+}
+
+p.footerpar {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-twitter-square {
+    color: #00acee;
+}
+
+.fa-youtube-play {
+    color: #FF0000;
+}
+
+.social {
+    margin: auto;
+}
+
+
+/*######### Mobile View #########*/
+@media screen and (max-width: 680px) {
+    .logo {
+        width: 55%;
+    }
+    
+    .cust h1 {
+        font-size: 50px;
+    }
+    
+    .contact h1 {
+        font-size: 45px;
+    }
+}
