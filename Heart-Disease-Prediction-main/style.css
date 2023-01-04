@@ -1,0 +1,155 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family: Arial, Helvetica,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background: rgb(150,234,255);
+    background: linear-gradient(90deg, rgba(150,234,255,1) 0%, rgba(113,255,158,1) 100%);
+}
+
+/* Website Title */
+.container{
+    padding: 8px;
+	position:relative;
+	background: linear-gradient(179deg, black, transparent);
+	background-size: 500% 500%;
+}
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.container-heading{
+    margin: 11px;
+}
+
+.heading_font{
+    color: #ffffff;
+	font-family: monospace;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.description p{
+	color: #ffffff;
+    font-style: initial;
+    font-size: 14px;
+    margin: -11px 0 0;
+    padding: 8px;
+    font-family: cursive;
+
+}
+
+/* Text Area */
+.ml-container{
+    margin: 30px 100px;
+	flex: 1 0 auto;
+
+}
+
+.form {
+	text-align: center;
+	width: 250px;
+	height: 25px;
+	margin-bottom: 5px;
+
+}
+
+input[type=text], select {
+    width:60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+
+	display: list-item;
+    width: 200px;
+	font-weight: bold;
+	text-align: center;
+	font-family: ui-serif;
+	float: left;
+    margin: 22px 0px 0px 0px;
+  }
+
+/* Predict Button */
+.my-cta-button{
+	background: bisque;
+   	border: 4px solid #000000;
+    border-radius: 15px;
+    box-shadow: 3px 3px #8c8c8c;
+	margin-top: 10px;
+    padding: 10px 36px;
+    color: #000000;
+    display: inline-block;
+   	font: italic bold 20px/1 "Calibri", sans-serif;
+    text-align: center;
+}
+
+.my-cta-button:hover{
+    color: #141414;
+    border: 2px solid #46424b;
+}
+
+.my-cta-button:active{
+    box-shadow: 0 0;
+}
+
+/* Contact */
+.contact-icon{
+	color: #ffffff;
+	padding: 7px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+/* Footer */
+.footer{
+	flex-shrink: 0;
+	position:relative;
+	padding: 15px;
+	background: black;
+	background-size: 500% 500%;
+}
+
+.footer-description{
+	color: #ffffff;
+	margin: 0;
+	font-size: 12px;
+}
+
+/* Result */
+.results{
+    padding: 30px 0 0;
+	flex: 1 0 auto;
+}
+
+.danger{
+    color: #ff0000;
+}
+
+.safe{
+    color: green;
+}
