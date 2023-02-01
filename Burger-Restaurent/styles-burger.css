@@ -1,0 +1,116 @@
+body {
+    background-color: #f5f5f0;
+}
+
+.module {
+    background: repeating-linear-gradient(
+  to right,
+  #ffd633,
+  #ffd633 30px,
+  #ffffff 30px,
+  #ffffff 60px
+);
+    padding: 5px;
+    border: 1px solid #ebebe0;
+    margin-bottom: 30px;
+}
+
+.logo {
+    border: 6px solid #ff9900;
+    border-radius:50%;
+    width: 25%;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #cc3300;
+    padding: 10px;
+}
+
+.logo h5 {
+    text-transform: none;
+}
+
+img.burg-logo {
+    width: 90px;
+    margin-top: 10px;
+}
+
+.customize {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.customize h1 {
+    font-size: 55px;
+    color: #cc0066;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.cardWrapper {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.cardWrapper img {
+    width: 300px;
+    height: 300px;
+}
+
+.cardWrapper a {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    color: #990000;
+}
+
+a.mushroom {
+    font-size: 26px;
+}
+
+.cardWrapper:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+footer.footerColor {
+    background-color: #212529;
+}
+
+p.footerpar {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-twitter-square {
+    color: #00acee;
+}
+
+.fa-youtube-play {
+    color: #FF0000;
+}
+
+.social {
+    margin: auto;
+}
+
+/*########## Mobile ##########*/
+@media screen and (max-width: 680px) {
+    .logo {
+        width: 55%;
+    }
+}

@@ -1,0 +1,846 @@
+body{
+    background-color: #e0e0d1;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.module {
+    background: repeating-linear-gradient(
+  to right,
+  #ffd633,
+  #ffd633 30px,
+  #ffffff 30px,
+  #ffffff 60px
+);
+    padding: 5px;
+    border: 1px solid #ebebe0;
+    margin-bottom: 30px;
+}
+
+.logo {
+    border: 6px solid #ff9900;
+    border-radius:50%;
+    width: 25%;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #cc3300;
+    padding: 10px;
+}
+
+.logo h5 {
+    text-transform: none;
+}
+
+img.burg-logo {
+    width: 90px;
+    margin-top: 10px;
+}
+
+
+.orders {
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #ffff00;
+}
+
+.containr .mh{
+    font-size: 40px;
+    margin-left: 2rem;
+    color: #003366;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.containr{
+    width: 1040px;
+    margin: 0;
+    padding: 2em 1em;
+    
+    
+}
+
+.containr .title{
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align:center;
+    margin-left:4em;
+    color: #006600;
+
+}
+
+
+
+.containr .container{
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-column-gap:4em;
+    grid-row-gap:4em;
+    max-width: 958px;
+    margin:0 auto;
+    padding:1rem 2rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 240px;
+    grid-template-rows: 160px 50px 50px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+  }
+  .card-image {
+    grid-area: image;
+  }
+  .card-text {
+    grid-area: text;
+  }
+  .card-stats {
+    grid-area: stats; 
+  }
+  .card-image {
+    grid-area: image;
+    background: url("assets/tomato.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  .card-text h2 {
+    margin-top:10px;
+    font-size:28px;
+  }
+  .card-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(231, 8, 8);
+  }
+
+  .card-stats input{
+      width:20px;
+      font-size:15px;
+      padding:10px;
+      border:none;
+      outline:none;
+  }
+  
+
+
+
+  .card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+
+
+
+  .card2-image {
+    grid-area: image;
+    background: url("assets/spinach.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+ 
+  .card2-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(10, 148, 5);
+  }
+  .card2-stats input{
+    width:30px;
+    font-size:15px;
+    margin:10px 10px;
+    padding:10px;
+    border:none;
+    outline:none;
+
+}
+
+ 
+
+
+  .card3-image {
+    grid-area: image;
+    background: url("assets/Cheddar.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card3-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgba(244, 231, 45, 0.957);
+  }
+  .card3-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+
+
+  .card4-image {
+    grid-area: image;
+    background: url("assets/cabbage.webp");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card4-stats {
+    grid-area: stats; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(52, 122, 2);
+  }
+  .card4-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+ 
+ 
+  .card5-image {
+    grid-area: image;
+    background: url("assets/parmesan.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card5-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(229, 197, 128);
+  }
+  .card5-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+
+  .card6-image {
+    grid-area: image;
+    background: url("assets/bacon.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card6-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(224, 78, 67);
+  }
+  .card6-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+  .card7-image {
+    grid-area: image;
+    background: url("assets/onions.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card7-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(177, 87, 207);
+  }
+  .card7-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+  .card8-image {
+    grid-area: image;
+    background: url("assets/jalapeno.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card8-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(222, 227, 97);
+  }
+  .card8-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+  .card9-image {
+    grid-area: image;
+    background: url("assets/chicken.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card9-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(241, 153, 105);
+  }
+  .card9-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+  .card10-image {
+    grid-area: image;
+    background: url("assets/mutton.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card10-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(219, 46, 15);
+  }
+  .card10-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+  .card11-image {
+    grid-area: image;
+    background: url("assets/beef4.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card11-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(223, 155, 38);
+  }
+  .card11-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+  .card12-image {
+    grid-area: image;
+    background: url("assets/mozarella.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card12-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(184, 173, 168);
+  }
+  .card12-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+  .card13-image {
+    grid-area: image;
+    background: url("assets/mushrooms.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card13-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(90, 77, 57);
+  }
+
+  .card13-stats input{
+      width: 30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+
+  .card14-image {
+    grid-area: image;
+    background: url("assets/cucumber.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card14-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(79, 179, 37);
+  }
+  .card14-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+  .card15-image {
+    grid-area: image;
+    background: url("assets/leaf.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card15-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(127, 233, 82);
+  }
+  .card15-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+.card16-image {
+    grid-area: image;
+    background: url("assets/mayo.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card16-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(229, 197, 128);
+  }
+  .card16-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+.card17-image {
+    grid-area: image;
+    background: url("assets/wheat-bread.webp");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card17-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #ff9900;
+  }
+  .card17-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+.card18-image {
+    grid-area: image;
+    background: url("assets/sesame.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card18-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(223, 155, 38);
+  }
+  .card18-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+.card19-image {
+    grid-area: image;
+    background: url("assets/english-muffin.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card19-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #cc8800;
+  }
+  .card19-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+.card20-image {
+    grid-area: image;
+    background: url("assets/pretzel.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card20-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #996633;
+  }
+  .card20-stats input{
+      width:30px;
+      font-size:15px;
+      margin:10px 10px;
+      padding:10px;
+      border:none;
+      outline:none;
+
+  }
+
+.line {
+    width: 1300px;
+    color: #ff0000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ingredients {
+    font-size: 20px;
+}
+
+.form-group {
+	width: 30%;
+	margin: 30px;
+}
+
+#myform {
+    text-align: center;
+    padding: 5px;
+    margin: 2%;
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    margin: 0;
+}
+input.qtyplus { 
+    width:40px;
+    height:25px;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+input.qtyminus {
+    width:40px;
+    height:25px;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.form-group {
+	width: 40%;
+	margin: 30px;
+}
+
+
+
+.menu {
+    text-align: center;
+    background-color: black;
+    border: 8px solid #ffff00;
+    margin: 30px;
+    padding-bottom: 10px;
+}
+
+.menu h1 {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #ffff00; 
+}
+
+.menu .ing {
+    color: #ffff00;
+    margin: auto;
+}
+
+.number {
+    list-style: none;
+}
+
+.payment {
+    text-align: center;
+}
+
+.charges {
+    color: #660033;
+}
+
+.total {
+    color: #cc3300;
+}
+
+.pays {
+    margin-bottom: 30px;
+}
+
+.pays button {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 17px;
+    background-color: #ff3300;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+footer.footerColor {
+    background-color: #212529;
+}
+
+p.footerpar {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-twitter-square {
+    color: #00acee;
+}
+
+.fa-youtube-play {
+    color: #FF0000;
+}
+
+.social {
+    margin: auto;
+}
+  /* .card {
+  
+  ...
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
