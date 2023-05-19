@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Machine Learning</title>
+
+  <style>
+
+    body {
+
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4RZfj5As5nf5HCXbtnNgzG067ZiVH_U5I8m4Y_OVjJmwl3wps1ZF7Os&s=10');
+
+      background-size: cover;
+
+      text-align: center;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    
+
+    h1 {
+
+      color: white;
+
+      font-size: 36px;
+
+      margin-top: 150px;
+
+    }
+
+    
+
+    h2 {
+
+      color: white;
+
+      font-size: 24px;
+
+    }
+
+    
+
+    button {
+
+      padding: 10px 20px;
+
+      font-size: 18px;
+
+      background-color: #4CAF50;
+
+      color: white;
+
+      border: none;
+
+      border-radius: 5px;
+
+      margin-top: 20px;
+
+    }
+
+    
+
+    #result {
+
+      margin-top: 50px;
+
+      color: white;
+
+      font-size: 20px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Machine Learning</h1>
+
+  <h2>Identifying Airline Passengers’ Satisfaction Using ML</h2>
+
+  <button onclick="predict()">Predict</button>
+
+  <div id="result"></div>
+
+  <script>
+
+    function predict() {
+
+      // Perform ML prediction logic here
+
+      // You can modify this function to customize the prediction message based on your ML model
+
+      var predictionMessage = "Passengers have a good experience with the flight. All things went well.";
+
+      document.getElementById("result").innerHTML = predictionMessage;
+
+    }
+
+  </script>
+
+</body>
+
+</html>
+
