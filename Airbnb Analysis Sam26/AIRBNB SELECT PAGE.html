@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Styles for the body with the background image */
+        body::after {
+            content: "";
+            background-image: url('bg.jpg'); /* Background image */
+            background-size: contain */; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            position: absolute; /* Set position to absolute */
+            top: 0px; /* Position at the top of the body */
+            left: 0; /* Align to the left */
+            right: 0; /* Align to the right */
+            bottom: 0; /* Align to the bottom */
+            opacity: 0.3; /* Set opacity to make the image semi-transparent */
+            z-index: -1; /* Move the overlay behind other content */
+	    
+        }
+
+        /* Styles for the header */
+        header {
+            background-color: #6739B7; /* Dark background color with opacity */
+            color: white; /* White text color */
+            padding: 18px; /* Padding around the content */
+            border-radius: 18px;
+            display: flex; /* Use flexbox for positioning */
+            align-items: center; /* Align items vertically */
+            position: absolute; /* Set position to absolute */
+            top: 0; /* Position header at the top of the body */
+            left: 0; /* Align header to the left */
+            right: 0; /* Align header to the right */
+            z-index: 1; /* Ensure header is on top of other content */
+        }
+
+        /* Styles for the logo */
+        .logo {
+            margin-right: 20px; /* Add some space between logo and text */
+            height: 80px; /* Set the height of the logo */
+        }
+
+        /* Styles for the text */
+        .text {
+            font-weight: bold; /* Make the text bold */
+        }
+
+        /* Styles for the centered text */
+        .centered-text {
+            font-size: 24px; /* Font size of the centered text */
+            text-align: center; /* Center align the text */
+            position: absolute; /* Set position to relative */
+            top: 35%; /* Position the text at 50% from the top */
+            left: 36%; /* Position the text at 50% from the left */
+            transform: translateY(-50%,-50%); /* Move the text up by half of its height to center vertically */
+            z-index: 2; /* Ensure the text is on top of the background overlay */
+            color: black; /* Match the text color to the background color */
+        }
+
+         /* Button styles */
+         .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #6739B7;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 13px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://miro.medium.com/v2/resize:fill:160:160/1*m0Lc1PhyVgoPuycyG_9_4Q.png" alt="Logo" class="logo">
+        <span class="text"><h1><b>Airbnb Data Analytics</b></h1></span>
+    </header>
+    <div class="centered-text">
+        <h2>Airbnb Data Visualization</h2>
+	    <a href="https://samuelgladly.github.io/Airbnb%20Analysis%20Sam26/Airbnb%20Analysis%2026.html" class="btn">NEWYORK CITY</a>
+        <a href="https://samuelgladly.github.io/Airbnb%20Analysis%20Sam26/Airbnb%20Analysis%2026%20-%20Copy.html" class="btn">NETHERLANDS</a>
+        
+	<h1>If You Need More Visualizations , Kindly Contact Us At sau-analytics@gmail.com</h1>
+    </div>
+	
+</body>
+</html>
