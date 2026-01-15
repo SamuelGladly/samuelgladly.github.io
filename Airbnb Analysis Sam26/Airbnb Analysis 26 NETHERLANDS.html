@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Pricing Analysis</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* The container for everything */
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* The iframe setup with top-cropping */
+        iframe {
+            position: absolute;
+            top: -50px; /* Hides the top avatars */
+            left: 0;
+            width: 100%;
+            height: calc(100% + 50px);
+            border: none;
+        }
+
+        /* The box that sits on top of the bottom of the website */
+        .bottom-overlay-box {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 45px; 
+            background-color: #F0F2F5; /* Matches your uploaded color */
+            border-top: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            padding: 0 20px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            z-index: 999;
+        }
+
+        /* Home Button Styling */
+        .home-btn {
+            background-color: #FF4B4B; /* Streamlit/Airbnb Red */
+            color: white;
+            padding: 6px 15px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 13px;
+            transition: background 0.3s;
+        }
+
+        .home-btn:hover {
+            background-color: #D33636;
+        }
+
+        .credit-text {
+            font-weight: bold;
+            font-size: 14px;
+            color: #31333F;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <iframe src="https://airbnb-pricing.streamlit.app/?embed=true"></iframe>
+
+        <div class="bottom-overlay-box">
+            <span class="credit-text">This website is made with streamlit by Samuel Solomon 🎈</span>
+            
+            <a href="https://samuelgladly.github.io/Airbnb%20Analysis%20Sam26/AIRBNB%20SELECT%20PAGE.html" class="home-btn">
+                GO TO HOME
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
